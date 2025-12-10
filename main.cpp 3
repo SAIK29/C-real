@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-//namespace, È uma classe que S” guarda vari·veis.
+//namespace, √© uma classe que S√ì guarda vari√°veis.
 namespace secondary{
 	int X = 29;
 	std::string Y = "29";
@@ -11,7 +11,7 @@ int main() {
 
 	using namespace secondary;
 
-	std::cout << X << " e " << Y << " ais um n˙mero mais lindo. (|" << std::endl;
+	std::cout << X << " e " << Y << " ais um n√∫mero mais lindo. (|" << std::endl;
 
 	system("pause");
 
