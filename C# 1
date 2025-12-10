@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EstudoC_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] FF = new int[6] {
+                9,8,10,11,28,29
+            };
+
+            FF[2] = 29;
+
+            foreach (int i in FF)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine($"Os números {FF[2]} e {FF[5]} estão no índice 2 e 5?");
+
+            string MT = Console.ReadLine().ToUpper();
+
+            Console.WriteLine(MT);
+
+            if (MT == "SIM" || MT == "S")
+            {
+                Console.WriteLine("Você esta certo! :D");
+            }
+            else
+            {
+                Console.WriteLine("Você errou. ):");
+            }
+
+                Console.ReadLine();
+        }
+    }
+}
