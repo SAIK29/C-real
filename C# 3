@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EstudoC_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int f = 2;
+
+            switch(f){
+                case 29:
+                    Console.WriteLine($"Seu aniversario é dia 29!");
+                    break;
+            default:
+                    Console.WriteLine("Seu aniversario não é dia 29.");
+                    break;
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
